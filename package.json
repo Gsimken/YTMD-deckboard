@@ -1,0 +1,16 @@
+{
+    "name": "ytmd-deckboard",
+    "version": "1.0.0",
+    "description": "An extension to interact with Youtube Music Desktop App through a remote control server provided by YTMD",
+    "main": "index.js",
+    "scripts": {
+        "build": "deckboard-kit --build",
+        "install": "deckboard-kit --install"
+    },
+    "author": "GSimken",
+    "license": "MIT",
+    "dependencies": {
+        "deckboard-kit": "https://github.com/rivafarabi/deckboard-kit.git",
+        "node-fetch": "^2.6.1"
+    }
+}
